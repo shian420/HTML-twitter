@@ -9,9 +9,8 @@
 <script src="https://kit.fontawesome.com/a1bcc1e98a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h2>ホーム</h2>
-  </header>
+
+  <div class="chat-wrapper">
 <div class="chat-container">
   <nav class="side-nav">
     <i class="fab fa-twitter fa-lg"></i>
@@ -26,6 +25,15 @@
     <button class="btn large">ツイートする</button>
   </nav>
   <main>
+    <header>
+<h2>ホーム</h2>
+      <div class="search">
+        <div class="search-btn">
+          <i class="fas fa-search"></i>
+        </div>
+      <input class="search-box"type="search" name="search" placeholder="キーワードで検索">
+    </div>
+    </header>
 
     <div class="tweet-form">
 
@@ -42,8 +50,9 @@
   </div>
   </main>
   <aside>
-    aside
+    <h2>いまどうしてる？</h2>
   </aside>
+</div>
 </div>
 </body>
 </html>
