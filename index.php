@@ -31,7 +31,7 @@
         <div class="search-btn">
           <i class="fas fa-search"></i>
         </div>
-      <input class="search-box"type="search" name="search" placeholder="キーワードで検索">
+      <input class="search-box" type="search" name="search" placeholder="キーワードで検索">
     </div>
     </header>
 
@@ -42,7 +42,16 @@
       <input type="text" name="name" placeholder="あなたの名前は？" >
       <textarea name="tweet" placeholder="いまどうしてる？"></textarea>
     </div>
-    <button type="submit" class="btn tweet">ツイートする</button>
+    <div class="tw-items">
+
+      <i class="far fa-image"></i>
+      <i class="far fa-sad-cry"></i>
+      <i class="fas fa-poll-h"></i>
+      <i class="far fa-smile"></i>
+      <i class="far fa-share-square"></i>
+
+<button type="submit" class="btn tweet">ツイートする</button>
+</div>
 <div class="clear-right"></div>
 投稿内容を表示↓
     </form>
