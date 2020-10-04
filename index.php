@@ -60,15 +60,16 @@
 
 <!--タイムライン部分!-->
     <div class="timeline-wraper">
+      <div class="user-image">
       <img class="iroha" src="./image/iroha.png" alt="アカウントアイコン">
-
+</div>
 <div class=timeline-flex>
-        <p>ああああああああああああああああああああああああ
-        あああああああああああああああああああああ
-      あああああああああああああああああああああああ
-    ああああああああああああああああああああああああ
-  あああああああああああああああああああああああ</p>
-        <img class="oregairu" src="./image/z.jpg" alt="ツイート画像">
+  <div class="username">
+  <h3>い・ろ・は・す</h3>
+  <p class="user-id">@iroha416</p>
+</div>
+        <p>私がいない</p>
+        <img class="oregairu" src="./image/3期.jpg" alt="ツイート画像">
 <i class="far fa-comment"></i>
 <i class="fas fa-retweet"></i>
 <i class="far fa-heart"></i>
@@ -76,9 +77,66 @@
     </div>
   </div>
 
+  <div class="timeline-wraper">
+    <div class="user-image">
+    <img class="iroha" src="./image/hi.jpg" alt="アカウントアイコン">
+</div>
+<div class=timeline-flex>
+<div class="username">
+<h3>ヒッキー</h3>
+<p class="user-id">@maxcoffee</p>
+</div>
+      <p>いろはすと無理矢理ツーショット<br>(兄には内緒で投稿☆)</p>
+<div class="content">
+      <img class="oregairu" src="./image/s.jpg" alt="ツイート画像">
+</div>
+<i class="far fa-comment"></i>
+<i class="fas fa-retweet"></i>
+<i class="far fa-heart"></i>
+<i class="fas fa-download"></i>
+  </div>
+</div>
+
+<div class="timeline-wraper">
+  <div class="user-image">
+  <img class="iroha" src="./image/yui.png" alt="アカウントアイコン">
+</div>
+<div class=timeline-flex>
+<div class="username">
+<h3>ゆいゆい</h3>
+<p class="user-id">@hxy61888</p>
+</div>
+    <p>またあの頃のように3人で...</p>
+    <img class="oregairu" src="./image/hh.jpg" alt="ツイート画像">
+<i class="far fa-comment"></i>
+<i class="fas fa-retweet"></i>
+<i class="far fa-heart"></i>
+<i class="fas fa-download"></i>
+</div>
+</div>
+
+<div class="timeline-wraper">
+  <div class="user-image">
+  <img class="iroha" src="./image/ukino.png" alt="アカウントアイコン">
+</div>
+<div class=timeline-flex>
+<div class="username">
+<h3>ゆきのん</h3>
+<p class="user-id">@nekononn</p>
+</div>
+    <p>由比ヶ浜さんと旅行</p>
+    <img class="oregairu" src="./image/d.jpg" alt="ツイート画像">
+<i class="far fa-comment"></i>
+<i class="fas fa-retweet"></i>
+<i class="far fa-heart"></i>
+<i class="fas fa-download"></i>
+</div>
+</div>
   </main>
+
   <aside>
     <h2>いまどうしてる？</h2>
+    知りません。
   </aside>
 </div>
 </div>

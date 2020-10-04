@@ -211,25 +211,69 @@ aside h2 {
   cursor: pointer;
 }
 
+.user-image {
+  width: 200px;
+  margin-left: 30px;
+}
+
 .iroha {
-  width: 60px;
-  height: 60px;
+  width: 100%;
   margin-top: 8px;
-  margin-left: 10px;
+  border-radius: 70px;
 }
 
 .timeline-flex {
-  padding: 13px 50px 8px 10px;
+  padding: 13px 50px 8px 20px;
+  width: 100%;
 }
 
 .timeline-flex i {
-  margin-right: 97px;
+  margin-right: 90px;
   color: #757474;
+}
+
+.timeline-flex .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.timeline-flex .username h3, .timeline-flex .username p {
+  font-size: 16px;
+}
+
+.timeline-flex p {
+  font-size: 16px;
+}
+
+.user-image {
+  width: 80px;
+}
+
+.user-id {
+  color: #bdbaba;
+  margin-left: 7px;
+}
+
+.fa-comment:hover {
+  color: #3385d0;
+}
+
+.fa-retweet:hover {
+  color: #33d05a;
+}
+
+.fa-heart:hover {
+  color: crimson;
+}
+
+.fa-download:hover {
+  color: #3385d0;
 }
 
 .oregairu {
   width: 100%;
-  padding-top: 15px;
+  padding-top: 10px;
   border-radius: 20px;
 }
 
@@ -340,7 +384,7 @@ aside {
     width: 550px;
   }
   .timeline-flex i {
-    margin-right: 82px;
+    margin-right: 70px;
   }
   aside {
     display: none;
@@ -358,6 +402,18 @@ aside {
   }
   .timeline-flex i {
     margin-right: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 400px;
+  }
+  .tweet-form {
+    display: none;
+  }
+  .timeline-flex i {
+    margin-right: 35px;
   }
 }
 /*# sourceMappingURL=styleseet.css.map */
