@@ -190,7 +190,7 @@ main:hover {
   width: 130px;
   height: 40px;
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 aside {
@@ -202,11 +202,38 @@ aside h2 {
   margin-left: 10px;
 }
 
-form div {
-  margin-left: 70px;
+.timeline-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  border-top: solid 5px #3b3b3b;
+  cursor: pointer;
 }
 
-form div input[type="text"] {
+.iroha {
+  width: 60px;
+  height: 60px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.timeline-flex {
+  padding: 13px 50px 8px 10px;
+}
+
+.timeline-flex i {
+  margin-right: 97px;
+  color: #757474;
+}
+
+.oregairu {
+  width: 100%;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+form .tweet-textbox input[type="text"] {
   width: 98%;
   font-size: 18px;
   border: none;
@@ -217,7 +244,7 @@ form div input[type="text"] {
   margin-top: 20px;
 }
 
-form div textarea {
+form .tweet-textbox textarea {
   width: 98%;
   font-size: 18px;
   border: none;
@@ -256,6 +283,7 @@ header h2 {
 
 .tweet-form div {
   margin-left: 90px;
+  padding-right: 40px;
 }
 
 aside {
@@ -311,6 +339,9 @@ aside {
   header h2 {
     width: 550px;
   }
+  .timeline-flex i {
+    margin-right: 82px;
+  }
   aside {
     display: none;
   }
@@ -324,6 +355,9 @@ aside {
   .chat-container {
     width: 100%;
     margin: 0 auto;
+  }
+  .timeline-flex i {
+    margin-right: 60px;
   }
 }
 /*# sourceMappingURL=styleseet.css.map */
